@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textViewCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Licznik: 0"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/buttonIncrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zwieksz"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/userInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="pole"
+        android:textSize="24sp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/invisibleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zaznaczona"
+        android:textSize="24sp"/>
+
+    <Switch
+        android:id="@+id/switchChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tryb Ciemny"
+        android:textSize="24sp"/>
+
+</LinearLayout>
